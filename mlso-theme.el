@@ -3,7 +3,7 @@
 ;;; Title: mlso theme
 ;;; Project: mlso-theme
 ;;; Version: 1.0
-;;; URL:
+;;; URL: https://github.com/Mulling/mlso-theme
 ;;; Autor: github.com/Mulling
 ;;; Pakcage-Requires: ((emcas "24"))
 
