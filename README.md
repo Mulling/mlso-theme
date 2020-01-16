@@ -1,1 +1,3 @@
-Color theme for emacs
+# mlso-theme
+
+A medium contrast theme for emacs.
