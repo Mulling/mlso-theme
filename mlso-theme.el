@@ -25,24 +25,26 @@
 (when window-system
   (let ((class '((class color) (min-colors 2)))
         (color0 "#12100E")               ;black
-        (color1 "#6B655B")               ;light-black
+        (color1 "#685C50")               ;light-black
         (color2 "#E0D567")               ;white
         (color3 "#918175")               ;dark-white
         (color4 "#292723")               ;gray
         (color5 "#FE4C43")               ;red
         (color6 "#43A047")               ;green
-        (color7 "#DFA22D")               ;yellow
+        (color7 "#FE9946")               ;yellow
         (color8 "#83A598")               ;blue
-        (color9 "#F62A6A")               ;magenta
+        (color9 "#FE9946")               ;magenta
         (colorx "#83A5B3")               ;cyan
         (color! "#FE8019")               ;orange
-        (color@ "#D7875F"))              ;salmon
+        (color@ "#D7875F")               ;salmon
+        (color$ "#28241f"))              ;alt black
+
     (custom-theme-set-faces
      'mlso
 
      `(default     ((t :background ,color0 :foreground ,color2)))
      `(cursor      ((t :background ,color! :foreground ,color0)))
-     `(fringe      ((t :background ,color0 :foreground ,color2)))
+     `(fringe      ((t :background ,color0 :foreground ,color$)))
      `(error       ((t :foreground ,color5)))
      `(success     ((t :foreground ,color6)))
      `(warning     ((t :foreground ,color7)))
@@ -51,7 +53,7 @@
      ;; font lock
      `(font-lock-builtin-face       ((t :foreground ,color8)))
      `(font-lock-comment-face       ((t :foreground ,color1)))
-     `(font-lock-constant-face      ((t :foreground ,color9)))
+     `(font-lock-constant-face      ((t :foreground ,color8)))
      `(font-lock-reference-face     ((t :foreground ,color6)))
      `(font-lock-doc-face           ((t :foreground ,color6)))
      `(font-lock-function-name-face ((t :foreground ,color7)))
@@ -215,7 +217,18 @@
      `(show-paren-mismatch ((t :inherit error)))
 
      ;; slime
-     `(slime-repl-inputed-output-face ((t :foreground ,color2))))))
+     `(slime-repl-inputed-output-face ((t :foreground ,color2)))
+
+     ;; whitespace mode
+     `(whitespace-space            ((t :foreground ,color$)))
+     `(whitespace-empty            ((t :foreground ,color$)))
+     `(whitespace-indentation      ((t :foreground ,color$)))
+     `(whitespace-line             ((t :foreground ,color$)))
+     `(whitespace-newline          ((t :foreground ,color$)))
+     `(whitespace-space-after-tab  ((t :foreground ,color$)))
+     `(whitespace-space-before-tab ((t :foreground ,color$)))
+     `(whitespace-tab              ((t :foreground ,color$)))
+     `(whitespace-trailing         ((t :foreground ,color$))))))
 
 ;;;###autoload
 (when load-file-name
