@@ -2,12 +2,17 @@
 
 ;;; Title: mlso theme
 ;;; Project: mlso-theme
-;;; Version: 1.0
+;;; Version: 1.1
 ;;; URL: https://github.com/Mulling/mlso-theme
 ;;; Autor: github.com/Mulling
 ;;; Pakcage-Requires: ((emacs "24"))
 
 ;;; Commentary:
+;;;            _                 _   _                               _
+;;;  _ __ ___ | |___  ___       | |_| |__   ___ _ __ ___   ___   ___| |
+;;; | '_ ` _ \| / __|/ _ \ _____| __| '_ \ / _ \ '_ ` _ \ / _ \ / _ \ |
+;;; | | | | | | \__ \ (_) |_____| |_| | | |  __/ | | | | |  __/|  __/ |
+;;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
 
 ;;; This theme is a work in progress.
 ;;; It is heavly base on srcery from github.com/srcery-colors/srcery-emacs and
@@ -23,8 +28,8 @@
 
 ;;; no terminal support
 (when window-system
-  (let ((class '((class color) (min-colors 2)))
-        (color0 "#12100E")               ;black
+  (let ((class '((class color) (min-colors 257)))
+        (color0 "#0E0D0B")               ;black
         (color1 "#685C50")               ;light-black
         (color2 "#E0D567")               ;white
         (color3 "#918175")               ;dark-white
@@ -33,11 +38,11 @@
         (color6 "#43A047")               ;green
         (color7 "#FE9946")               ;yellow
         (color8 "#83A598")               ;blue
-        (color9 "#FE9946")               ;magenta
+        (color9 "#D73570")               ;magenta
         (colorx "#83A5B3")               ;cyan
         (color! "#FE8019")               ;orange
         (color@ "#D7875F")               ;salmon
-        (color$ "#28241f"))              ;alt black
+        (color$ "#28241F"))              ;alt-black
 
     (custom-theme-set-faces
      'mlso
@@ -53,7 +58,7 @@
      ;; font lock
      `(font-lock-builtin-face       ((t :foreground ,color8)))
      `(font-lock-comment-face       ((t :foreground ,color1)))
-     `(font-lock-constant-face      ((t :foreground ,color8)))
+     `(font-lock-constant-face      ((t :foreground ,color@)))
      `(font-lock-reference-face     ((t :foreground ,color6)))
      `(font-lock-doc-face           ((t :foreground ,color6)))
      `(font-lock-function-name-face ((t :foreground ,color7)))
@@ -155,11 +160,11 @@
      `(magit-diff-hunk-heading           ((t :foreground ,color7)))
      `(magit-diff-hunk-heading-highlight ((t :foreground ,color7)))
      `(magit-diff-hunk-heading-selection ((t :foreground ,color2)))
-     `(magit-diff-added                  ((t :foreground ,color2)))
-     `(magit-diff-removed                ((t :foreground ,color1)))
-     `(magit-diff-context                ((t :foreground ,color1)))
-     `(magit-diff-added-highlight        ((t :foreground ,color2)))
-     `(magit-diff-removed-highlight      ((t :foreground ,color1 :strike-through t)))
+     `(magit-diff-added                  ((t :foreground ,color6)))
+     `(magit-diff-removed                ((t :foreground ,color@)))
+     `(magit-diff-context                ((t :foreground ,color2)))
+     `(magit-diff-added-highlight        ((t :foreground ,color6 :bold t)))
+     `(magit-diff-removed-highlight      ((t :foreground ,color@)))
      `(magit-diff-context-highlight      ((t :foreground ,color1)))
      `(magit-diff-base                   ((t :foreground ,color1)))
      `(magit-diff-base-highlight         ((t :foreground ,color1)))
