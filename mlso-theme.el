@@ -2,9 +2,9 @@
 
 ;;; Version: 1.2
 ;;; URL: https://github.com/Mulling/mlso-theme
-;;; Autor: github.com/Mulling
-;;; Pakcage-Requires: ((emacs "24"))
-;;; Keyowrds: theme
+;;; Author: github.com/Mulling
+;;; Package-Requires: ((emacs "24"))
+;;; Keywords: theme
 
 ;;; Commentary:
 ;;;            _                 _   _                               _
@@ -13,7 +13,7 @@
 ;;; | | | | | | \__ \ (_) |_____| |_| | | |  __/ | | | | |  __/|  __/ |
 ;;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
 ;;;
-;;; A dark, medum contrast theme with warm colors.
+;;; A dark, medium contrast theme with warm colors.
 ;;;
 ;;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
 ;;; This is also a work in progress, so things may change.
