@@ -239,6 +239,8 @@
 
 (provide-theme 'mlso)
 
+(provide 'mlso-theme)
+
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
