@@ -1,11 +1,10 @@
-;;; mlso-theme.el --- A dark, medium contrast theme
+;;; mlso-theme.el --- A dark, medium contrast theme -*- lexical-binding :t; -*-
 
-;;; Title: mlso-theme
-;;; Project: mlso-theme
-;;; Version: 1.1
+;;; Version: 1.2
 ;;; URL: https://github.com/Mulling/mlso-theme
 ;;; Autor: github.com/Mulling
-;;; Pakcage-Requires: ((emacs "26"))
+;;; Pakcage-Requires: ((emacs "24"))
+;;; Keyowrds: theme
 
 ;;; Commentary:
 ;;;            _                 _   _                               _
@@ -13,6 +12,8 @@
 ;;; | '_ ` _ \| / __|/ _ \ _____| __| '_ \ / _ \ '_ ` _ \ / _ \ / _ \ |
 ;;; | | | | | | \__ \ (_) |_____| |_| | | |  __/ | | | | |  __/|  __/ |
 ;;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
+;;;
+;;; A dark, medum contrast theme with warm colors.
 ;;;
 ;;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
 ;;; This is also a work in progress, so things may change.
