@@ -107,9 +107,6 @@
     `(dired-warning    ((t :inherit warning)))
     `(dired-ignored    ((t :inherit font-lock-comment-face)))
 
-    ;;eldoc
-    `(eldoc-highlight-function-argument ((t :foreground ,orange)))
-
     ;; eshell
     `(eshell-ls-archive    ((t :inherit font-lock-comment-face)))
     `(eshell-ls-backup     ((t :inherit font-lock-comment-face)))
