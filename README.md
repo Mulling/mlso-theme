@@ -8,13 +8,13 @@ A medium contrast theme for emacs.
 
 
 ### Current supported modes:
-- Magit
-- Markdown
 - Company
 - Dired
 - Eshell
 - Flycheck
 - Ido
+- Magit
+- Which-Key
 
 
 ---
