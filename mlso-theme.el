@@ -19,9 +19,6 @@
 
 ;;; Code:
 
-(unless (>= emacs-major-version 26)
-  (error "Theme requires version 26 or greater"))
-
 (deftheme mlso
   "A dark, medium contrast theme.")
 
