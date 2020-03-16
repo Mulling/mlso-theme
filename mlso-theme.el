@@ -4,7 +4,6 @@
 ;;; URL: https://github.com/Mulling/mlso-theme
 ;;; Author: github.com/Mulling
 ;;; Package-Requires: ((emacs "24"))
-;;; Keywords: theme
 
 ;;; Commentary:
 ;;;            _                 _   _                               _
