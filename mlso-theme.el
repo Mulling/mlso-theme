@@ -1,21 +1,21 @@
 ;;; mlso-theme.el --- A dark, medium contrast theme -*- lexical-binding :t; -*-
 
-;;; Version: 1.2
-;;; URL: https://github.com/Mulling/mlso-theme
-;;; Author: github.com/Mulling
-;;; Package-Requires: ((emacs "24"))
+;; Version: 1.2
+;; URL: https://github.com/Mulling/mlso-theme
+;; Author: github.com/Mulling
+;; Package-Requires: ((emacs "24"))
 
 ;;; Commentary:
-;;;            _                 _   _                               _
-;;;  _ __ ___ | |___  ___       | |_| |__   ___ _ __ ___   ___   ___| |
-;;; | '_ ` _ \| / __|/ _ \ _____| __| '_ \ / _ \ '_ ` _ \ / _ \ / _ \ |
-;;; | | | | | | \__ \ (_) |_____| |_| | | |  __/ | | | | |  __/|  __/ |
-;;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
-;;;
-;;; A dark, medium contrast theme with warm colors.
-;;;
-;;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
-;;; This is also a work in progress, so things may change.
+;;            _                 _   _                               _
+;;  _ __ ___ | |___  ___       | |_| |__   ___ _ __ ___   ___   ___| |
+;; | '_ ` _ \| / __|/ _ \ _____| __| '_ \ / _ \ '_ ` _ \ / _ \ / _ \ |
+;; | | | | | | \__ \ (_) |_____| |_| | | |  __/ | | | | |  __/|  __/ |
+;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
+;;
+;; A dark, medium contrast theme with warm colors.
+;;
+;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
+;; This is also a work in progress, so things may change.
 
 ;;; Code:
 
