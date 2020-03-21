@@ -6,6 +6,7 @@
 ;; Package-Requires: ((emacs "24"))
 
 ;;; Commentary:
+
 ;;            _                 _   _                               _
 ;;  _ __ ___ | |___  ___       | |_| |__   ___ _ __ ___   ___   ___| |
 ;; | '_ ` _ \| / __|/ _ \ _____| __| '_ \ / _ \ '_ ` _ \ / _ \ / _ \ |
@@ -13,7 +14,7 @@
 ;; |_| |_| |_|_|___/\___/       \__|_| |_|\___|_| |_| |_|\___(_)___|_|
 ;;
 ;; A dark, medium contrast theme with warm colors.
-;;
+
 ;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
 ;; This is also a work in progress, so things may change.
 
@@ -22,7 +23,7 @@
 (deftheme mlso
   "A dark, medium contrast theme.")
 
-;;; no terminal support - for now
+;; no terminal support - for now
 (when window-system
  (let ((black       "#0E0D0B")
        (light-black "#685C50")
@@ -227,18 +228,12 @@
     `(which-key-special-key-face           ((t :foreground ,magenta)))
     `(which-key-docstring-face             ((t :foreground ,green))))))
 
-
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'mlso)
-
 (provide 'mlso-theme)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
 
 ;;; mlso-theme.el ends here
