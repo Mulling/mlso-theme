@@ -4,6 +4,7 @@
 ;; URL: https://github.com/Mulling/mlso-theme
 ;; Author: github.com/Mulling
 ;; Package-Requires: ((emacs "24"))
+;; License: WTFPL
 
 ;;; Commentary:
 
@@ -15,7 +16,7 @@
 ;;
 ;; A dark, medium contrast theme with warm colors.
 
-;; This work is licensed under the WTFPL.  See <http://www.wtfpl.net/about/>.
+;; This work is licensed under the WTFPL. See <http://www.wtfpl.net/about/>.
 ;; This is also a work in progress, so things may change.
 
 ;;; Code:
