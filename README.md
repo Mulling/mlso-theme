@@ -4,8 +4,10 @@
 
 A medium contrast theme for emacs with dark colors.
 
-### Screenshot
-![demo](images/demo.png)
+### Screenshots
+![Haskell and Lisp](images/haskell_lisp.png "Haskell and Lisp")
+![Magit](images/magit.png "Magit")
+![C++ and Python](images/cpp_python.png "C++ and Python")
 
 ### Current supported modes:
 - Company
