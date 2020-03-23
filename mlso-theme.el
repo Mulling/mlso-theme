@@ -4,7 +4,7 @@
 ;; URL: https://github.com/Mulling/mlso-theme
 ;; Author: github.com/Mulling
 ;; Package-Requires: ((emacs "24"))
-;; License: WTFPL
+;; SPDX-License-Identifier: WTFPL
 
 ;;; Commentary:
 

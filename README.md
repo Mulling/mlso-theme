@@ -1,11 +1,11 @@
 # mlso-theme
 
-A medium contrast theme for emacs.
+[![MELPA](http://melpa.org/packages/mlso-theme-badge.svg)](http://melpa.org/#/mlso-theme)
 
+A medium contrast theme for emacs with dark colors.
 
 ### Screenshot
 ![demo](images/demo.png)
-
 
 ### Current supported modes:
 - Company
@@ -15,7 +15,6 @@ A medium contrast theme for emacs.
 - Ido
 - Magit
 - Which-Key
-
 
 ---
 
