@@ -227,7 +227,13 @@
     `(which-key-highlighted-command-face   ((t :foreground ,yellow)))
     `(which-key-group-description-face     ((t :foreground ,red)))
     `(which-key-special-key-face           ((t :foreground ,magenta)))
-    `(which-key-docstring-face             ((t :foreground ,green))))))
+    `(which-key-docstring-face             ((t :foreground ,green)))
+
+    ;; completions
+    `(completions-first-difference ((t :foreground ,white, :bold t)))
+    `(completions-common-part      ((t :foreground ,blue)))
+    `(completions-annotations      ((t :foreground ,white)))
+    )))
 
 ;;;###autoload
 (when load-file-name
