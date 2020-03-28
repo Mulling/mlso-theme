@@ -27,7 +27,7 @@
 ;; no terminal support - for now
 (when window-system
  (let ((black       "#0E0D0B")
-       (light-black "#685C50")
+       (light-black "#686250")
        (white       "#E1D771")
        (gray        "#292723")
        (red         "#FE7246")
