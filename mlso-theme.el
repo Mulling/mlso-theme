@@ -28,7 +28,7 @@
 (when window-system
  (let ((black       "#0E0D0B")
        (light-black "#686250")
-       (white       "#E1D771")
+       (white       "#E1D57E")
        (gray        "#292723")
        (red         "#FE7246")
        (green       "#43A047")
