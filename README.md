@@ -16,6 +16,7 @@ A medium contrast theme for emacs with dark colors.
 - Flycheck
 - Ido
 - Magit
+- Markdown-mode
 - Which-Key
 
 ---
