@@ -233,6 +233,16 @@
     `(completions-first-difference ((t :foreground ,white, :bold t)))
     `(completions-common-part      ((t :foreground ,blue)))
     `(completions-annotations      ((t :foreground ,white)))
+
+    ;; compilation
+    `(compilation-error          ((t :inherit error)))
+    `(compilation-warning        ((t :inherit warning)))
+    `(compilation-info           ((t :foreground ,green)))
+    `(compilation-mode-line-fail ((t :foreground ,red)))
+    `(compilation-mode-line-run  ((t :foreground ,yellow)))
+    `(compilation-mode-line-exit ((t :foreground ,green)))
+    `(compilation-line-number    ((t :foreground ,orange)))
+    `(compilation-column-number  ((t :foreground ,cyan)))
     )))
 
 ;;;###autoload
