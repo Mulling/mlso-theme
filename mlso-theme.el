@@ -1,6 +1,6 @@
 ;;; mlso-theme.el --- A dark, medium contrast theme -*- lexical-binding :t; -*-
 
-;; Version: 1.2
+;; Version: 1.3
 ;; URL: https://github.com/Mulling/mlso-theme
 ;; Author: github.com/Mulling
 ;; Package-Requires: ((emacs "24"))
@@ -26,7 +26,7 @@
 
 ;; no terminal support - for now
 (when window-system
- (let ((black       "#0E0D0B")
+ (let ((black       "#060604")
        (light-black "#686250")
        (white       "#E1D57E")
        (gray        "#292723")
