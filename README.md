@@ -5,10 +5,7 @@
 A medium contrast theme for emacs with dark colors.
 
 ### Screenshots
-![Haskell and Lisp](images/haskell_lisp.png "Haskell and Lisp")
-![Magit](images/magit.png "Magit")
-![C++ and Python](images/cpp_python.png "C++ and Python")
-
+![lisp-cpp-haskell-python](images/lisp-cpp-haskell-python.png "lisp cpp haskell python")
 ### Current supported modes:
 - Company
 - Dired
